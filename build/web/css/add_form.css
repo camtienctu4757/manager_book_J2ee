@@ -1,0 +1,47 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+     box-shadow: rgba(46, 105, 193, 0.25) 0px 14px 28px, rgba(15, 73, 166, 0.22) 0px 10px 10px;
+     border-radius: 10px;
+}
+.head-name{
+    font-size: 30px;
+    color: rgb(71, 143, 243);
+    text-align: center;
+}
+.form-add{
+   margin: 30px 0;
+ 
+}
+.form-line{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+.option-name,
+.option-input{
+    margin: 0 9%;
+    font-size: 17px
+}
+.option-name{
+    flex: 1;
+}
+.option-input{
+    height: 25px;
+    width: 30%; 
+    flex: 2;
+    left: 0;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(71, 143, 243) ;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

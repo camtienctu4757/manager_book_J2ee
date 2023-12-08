@@ -1,0 +1,444 @@
+/*Màu nền của tiêu đề bảng*/
+body {
+	margin:0;
+	background:url(../images/header/bg.gif) repeat-y left;
+	}
+
+.main_1 
+{
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(../images/bg_main_tbl.gif); PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Arial; HEIGHT: 25px
+}
+
+/*Màu nền của tiêu đề cột - Màu của cột số thứ tự*/
+.main_3 
+{
+	BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: #80b5d7 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dae9f3
+}
+/*Màu nền của tiêu đề cột - Màu của cột số thứ tự nhgung chi co line o bottom*/
+.main_3_b 
+{
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 2px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dae9f3
+}
+/*Màu nền của tiêu đề cột - Màu của cột số thứ tự nhgung chi co line o 4 phai*/
+.main_3_all 
+{
+	BORDER-RIGHT: #80b5d7 2px solid; BORDER-TOP: #80b5d7 2px solid;BORDER-LEFT: #80b5d7 2px solid;PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold;  FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 2px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dae9f3
+}
+
+.main_3_all_ 
+{
+	BORDER-RIGHT: #80b5d7 1px solid; BORDER-TOP: #80b5d7 1px solid;BORDER-LEFT: #80b5d7 1px solid;PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold;  FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dae9f3
+}
+
+/*Màu nền bo góc bên trái của bảng*/
+.main_1_left 
+{
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(../images/tbl_left.gif); PADDING-BOTTOM: 0px; WIDTH: 10px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Arial; HEIGHT: 25px
+}
+
+/*Màu nền bo góc bên phải của bảng*/
+.main_1_right 
+{
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND-IMAGE: url(../images/tbl_right.gif); PADDING-BOTTOM: 0px; WIDTH: 10px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Arial; HEIGHT: 25px
+}
+
+/*Màu đường viền của bảng*/
+.border_1 
+{
+	BORDER-RIGHT: #007ebb 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #007ebb 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #007ebb 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #007ebb 1px solid; FONT-FAMILY: Arial
+}
+
+/*Màu nền của thẻ TD hoặc TR - màu trắng*/
+.level_1_1 
+{
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial;HEIGHT: 23px;
+}
+
+/*Màu nền của thẻ TD hoặc TR - màu xám*/
+.level_1_2 
+{
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #f7f7f7;HEIGHT: 23px;
+}
+
+/*Định dang button*/
+.button_1
+{
+	BORDER-RIGHT: #80b5d7 1px solid; BORDER-TOP: #80b5d7 1px solid; FONT-WEIGHT: bolder; FONT-SIZE: 9pt; BORDER-LEFT: #80b5d7 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #3872b2
+}
+
+/*Lien ket*/
+A:visited 
+{
+	COLOR: #008000; TEXT-DECORATION: none
+}
+A:link 
+{
+	COLOR: #008000; TEXT-DECORATION: none
+}
+A:hover 
+{
+	COLOR: #ff0000
+}
+A.white:visited 
+{
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:link 
+{
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:hover 
+{
+	COLOR: #ffff00;
+	text-decoration:underline;
+}
+A.login:visited 
+{
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.login:link 
+{
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.login:hover 
+{
+	COLOR: #0066cc
+}
+
+/*Body*/
+BODY 
+{
+	SCROLLBAR-FACE-COLOR: #f5f1f1; FONT-SIZE: 12px; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #727474; SCROLLBAR-SHADOW-COLOR: #727474; COLOR: black; DIRECTION: ltr; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #727474; SCROLLBAR-TRACK-COLOR: #fbf7f7; FONT-FAMILY: Arial
+}
+/*************Modify by Ctphat 29/01/2008
+Danh thay doi font-size  cua trang THOI KHOA BIEU (luoi)
+Giam font-size tu 10pt xuong con 9pt
+level_tkb_1=level_tkb_2=9pt
+*/
+.level_tkb_1 {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial;HEIGHT: 23px;
+}
+.level_tkb_2 {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #f7f7f7;HEIGHT: 23px;
+}
+.main_tkb_3 {
+	BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: #80b5d7 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dae9f3
+}
+/************************/
+.txtbox { 
+	BORDER-RIGHT: #808080 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #808080 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #808080 1px solid; COLOR: #003366; PADDING-TOP: 1px; BORDER-BOTTOM: #808080 1px solid; FONT-FAMILY: Arial
+}
+.cbo {
+	BORDER-RIGHT: #808080 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #808080 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; BORDER-LEFT: #808080 1px solid; COLOR: #003366; PADDING-TOP: 0px; BORDER-BOTTOM: #808080 1px solid; FONT-FAMILY: Arial
+}
+.font1 {
+	FONT-SIZE: 9pt; 
+	COLOR: #003366; 
+	FONT-FAMILY: Arial; 
+}
+/*-----------------------------------------------------------------------------------------------*/
+.i_level {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+.i_titletable {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-BOTTOM: #808080 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #f3f2f4; BORDER-RIGHT-WIDTH: 1px
+}
+.i_titlecol {
+	BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: #808080 1px solid; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-BOTTOM: #808080 1px solid; FONT-FAMILY: Tahoma
+}
+.i_titlecolend {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-BOTTOM: #808080 1px solid; FONT-FAMILY: Tahoma
+}
+.i_titlerowend {
+	BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: #808080 1px solid; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.i_titlecolrowend {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; FONT-FAMILY: Tahoma
+}
+.i_border {
+	BORDER-RIGHT: #808080 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #808080 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 9pt; PADDING-BOTTOM: 2px; BORDER-LEFT: #808080 1px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #808080 1px solid; FONT-FAMILY: Tahoma
+}
+.i_normaltext {
+	FONT-SIZE: 9pt; FONT-STYLE: italic; FONT-FAMILY: Tahoma
+}
+.i_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 15pt; FONT-FAMILY: Times New Roman
+}
+.i_phanhieu {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.notes {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial
+}
+.notes_1 {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.title_3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000080; FONT-FAMILY: Arial; TEXT-ALIGN: center
+}
+.font {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Arial
+}
+.font_1 {
+	FONT-SIZE: 10pt; COLOR: #003366; FONT-FAMILY: Arial;  
+}
+.note {
+	FONT-SIZE: 8pt; COLOR: #808080; FONT-STYLE: italic; FONT-FAMILY: Arial
+}
+
+.main {
+	BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #e8e8e8 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #e8e8e8 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #f5f5f5
+}
+.border {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #c0c0c0 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #c0c0c0 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Arial
+}
+.level_1 {
+	BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #e8e8e8 1px solid; TEXT-INDENT: 5px; PADDING-TOP: 1px; BORDER-BOTTOM: #e8e8e8 1px solid; FONT-FAMILY: Arial
+}
+.level_2 {
+	BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 10pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #e8e8e8 1px solid; TEXT-INDENT: 15px; PADDING-TOP: 1px; BORDER-BOTTOM: #e8e8e8 1px solid; FONT-FAMILY: Arial
+}
+.button {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-WEIGHT: bolder; FONT-SIZE: 10pt; BORDER-LEFT: #c0c0c0 1px solid; COLOR: #003366; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #efefef
+}
+
+
+
+.main_2 {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10pt; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; HEIGHT: 20px; BACKGROUND-COLOR: #dae9f3; BORDER-RIGHT-WIDTH: 1px
+}
+
+/*lhsang main_3_2 chuyen tu main_3 nhung khong co bạckground  */
+.main_3_2 {
+	BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: #80b5d7 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial
+}
+.main_3_1 {
+	BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: #80b5d7 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #dae9f3
+}
+
+.level_1_1_c {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 9pt; PADDING-BOTTOM: 3px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Tahoma
+}
+.level_1_2_c {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 9pt; PADDING-BOTTOM: 3px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #f7f7f7
+}
+/******* Modify by Thviet 22/10/2007
+Thay đổi thuộc tính PADDING-TOP và PADDING-LEFT về giá trị 0, Giá trị ban đầu là 3px
+level_1_2 = level_1_1 = 23px
+
+**************/
+
+.level_1_3 {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10pt; PADDING-BOTTOM: 3px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffead5
+}
+.level_1_4 {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10pt; PADDING-BOTTOM: 3px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffe0ff
+}
+.level_2_1 {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10pt; PADDING-BOTTOM: 3px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial; TEXT-ALIGN: center
+}
+.level_2_2 {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10pt; PADDING-BOTTOM: 3px; MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #e5e5e5 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+
+.page {
+	BORDER-RIGHT: #919b9c 1px solid; BORDER-TOP: 1px; BORDER-LEFT: #919b9c 1px solid; BORDER-BOTTOM: #919b9c 1px solid; BACKGROUND-COLOR: #fcfcfd
+}
+
+#interface1 {
+	Z-INDEX: 1
+}
+#loader_container {
+	WIDTH: 100%; POSITION: absolute; TOP: 40%; TEXT-ALIGN: center
+}
+#loader {
+	BORDER-RIGHT: #6a6a6a 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #6a6a6a 1px solid; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 11px; Z-INDEX: 2; PADDING-BOTTOM: 16px; MARGIN: 0px auto; BORDER-LEFT: #6a6a6a 1px solid; WIDTH: 90%; COLOR: #000000; PADDING-TOP: 10px; BORDER-BOTTOM: #6a6a6a 1px solid; FONT-FAMILY: Tahoma, Helvetica, sans; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+#progress {
+	FONT-SIZE: 1px; LEFT: 0px; WIDTH: 1px; POSITION: relative; TOP: 1px; HEIGHT: 5px; BACKGROUND-COLOR: #9d9d94
+}
+#loader_bg {
+	FONT-SIZE: 1px; LEFT: 8px; WIDTH: 90%; POSITION: relative; TOP: 8px; HEIGHT: 7px; BACKGROUND-COLOR: #ebebe4
+}
+.menu {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #80b5d7 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dae9f3
+}
+.menu_ {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #80b5d7 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #F7F7F7
+}
+.menu_select {
+	BORDER-TOP-WIDTH: 0px; BORDER-RIGHT: #80b5d7 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #80b5d7 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #00f0f0
+}
+
+/* ------------------------------- */
+.noborder{
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+/*-------------  LOGIN  ---------------*/
+
+.tl {background:url(../images/login/padlock.gif) no-repeat left top; width:60px; height:50px;}
+
+.tc {background:url(../images/login/tc_login.gif) repeat-x;}
+
+.tr {background:url(../images/login/tr_login.gif) no-repeat right top; width:20px;}
+
+.cl {background:url(../images/login/cl_login.gif) repeat-y left top; width:20px;}
+
+.cr {background:url(../images/login/cr_login.gif) repeat-y right top; width:20px;}
+
+.bl {background:url(../images/login/bl_login.gif) no-repeat left bottom; width:20px; height:20px;}
+
+.bc {background:url(../images/login/bc_login.gif) repeat-x}
+
+.br {background:url(../images/login/br_login.gif) no-repeat right bottom; width:20px; height:20px;}
+
+/*    TEXT     */
+
+.textlogin { font-family:Verdana,sans-serif; font-size:11px; font-weight:bold; color:#666666; padding-left:5px; line-height:22px;}
+
+.headerlogin {font-family:Verdana,sans-serif; font-size:14px; font-weight:bold; color:#FFFFFF;}
+
+.inputlogin { margin:1px; font-family:Verdana,sans-serif; font-size:11px; color:#333333;}
+
+/*------------- END LOGIN  ---------------*/
+
+/*------------- FOOTER  ---------------*/
+
+.tl_footer {background:url(../images/header/tl_footer.gif) no-repeat left top; width:20px; height:20px;}
+
+.cl_footer {background:url(../images/header/cl_footer.gif) left top; height:30px; width:20px;}
+
+.cr_footer {background:url(../images/header/cr_footer.gif) right top; width:20px;}
+
+.bl_footer {background: url(../images/header/bl_footer.gif) no-repeat left bottom; width:20px; height:20px;}
+
+.bc_footer {background:url(../images/header/bc_footer.gif) repeat-x}
+
+.br_footer {background: url(../images/header/br_footer.gif) no-repeat right bottom; width:20px; height:20px;}
+
+.cm_footer {background:url(../images/header/cm_footer.gif) repeat-x; height:30px;}
+
+.copy {
+	font-size:8pt;
+	color:#FFFFFF;
+}
+/*-------------- END FOOTER -----------------*/
+
+/*------------- HEADER  ---------------*/
+
+.tl_header {background:url(../images/header/tl_header.gif) no-repeat left top; width:20px; height:20px;}
+
+.tc_header {background:url(../images/header/tc_header.gif) repeat-x;}
+
+.tr_header {background:url(../images/header/tr_header.gif) no-repeat right top; width:20px; height:20px;}
+
+.cl_header {background:url(../images/header/cl_header.gif) left top; width:20px;}
+
+.cr_header {background:url(../images/header/cr_header.gif) right top; width:20px;}
+
+.cm_header {background:url(../images/header/cm_header.gif) repeat-x; height:100px;}
+
+.logo {background:url(../images/header/logo.gif) no-repeat left top; width:90px; height:100px;}
+
+.tittle_header {background:url(../images/header/tittle.gif) no-repeat left top; width:290px; height:100px;}
+
+.header a {
+	font-family:Tahoma;
+	font-size:8pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+.header a:hover {	
+	text-decoration:underline;
+}
+
+/*-------------- END HEADER -----------------*/
+
+/*------------- THONG TIN SINH VIEN ---------------*/
+
+.tl_main {background:url(../images/header/tl_main.gif) no-repeat left top; width:20px; height:20px;}
+
+.tc_main {background:url(../images/header/tc_main.gif) repeat-x;}
+
+.tr_main {background: url(../images/header/tr_main.gif) no-repeat right top; width:20px; height:20px;}
+
+.cl_main {background:url(../images/header/cl_main.gif) left top; width:20px;}
+
+.cr_main {background:url(../images/header/cr_main.gif) right top; width:20px;}
+
+.bl_main {background: url(../images/header/bl_main.gif) no-repeat left bottom; width:20px; height:20px;}
+
+.bc_main {background:url(../images/header/bc_main.gif) repeat-x}
+
+.br_main {background: url(../images/header/br_main.gif) no-repeat right bottom; width:20px; height:20px;}
+
+/*-------------- END MAIN -----------------*/
+
+.textbold {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: bold;	
+	FONT-SIZE: 10pt;
+	PADDING-BOTTOM: 2px;
+	COLOR: #0e4a92;
+	PADDING-TOP: 2px;
+	FONT-FAMILY: Arial;	
+}
+
+.bordersv{
+	border-top:1px #CCCCCC dashed;
+	font-size:10pt;
+	line-height:22px;
+}
+
+.bordersv .bg{
+	background-color:#f0f0f0;
+	padding-right:10px;
+}
+
+.bordersv .bold{
+	font-weight:bold;
+	padding-left:10px;
+}
+.tested {
+    BORDER-RIGHT: #e5e5e5 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #ffffff 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    WORD-SPACING: 0px;
+    TEXT-INDENT: 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #e5e5e5 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 23px;
+    
+}
+.nottested {
+    BORDER-RIGHT: #e5e5e5 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #ffffff 1px solid;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    WORD-SPACING: 0px;
+    TEXT-INDENT: 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #e5e5e5 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 23px;
+    background-color: yellow;
+    
+}
